@@ -4,6 +4,18 @@ Pickle is a photorealistic animated desktop pet for the Codex desktop app, based
 
 ![Pickle jumping pose sequence](docs/jumping-poses.png)
 
+## One-sentence install with Codex
+
+Paste this sentence into a Codex conversation:
+
+> 请从 https://github.com/Qifeng-G/pickle-codex-pet 安装 Pickle Codex 桌宠，按照仓库说明运行安装脚本，验证安装结果，并在需要重启 Codex 时告诉我。
+
+That is all. Codex can clone the repository, run the included installer, verify the two installed files, and tell you when to restart the app. You may be asked to approve writing to your Codex pets directory.
+
+English prompt:
+
+> Install the Pickle Codex desktop pet from https://github.com/Qifeng-G/pickle-codex-pet, run the repository installer, verify the installation, and tell me when Codex needs to restart.
+
 ## Animation states
 
 | State | Behavior |
@@ -20,7 +32,7 @@ Pickle is a photorealistic animated desktop pet for the Codex desktop app, based
 
 MP4 previews for every state are available in [`previews/`](previews/).
 
-## Install in Codex
+## Manual installation
 
 ### 1. Download the project
 
@@ -33,7 +45,13 @@ Alternatively, download the repository as a ZIP from GitHub and extract it.
 
 ### 2. Copy the pet package
 
-On macOS or Linux, run:
+Run the included installer on macOS or Linux:
+
+```bash
+./scripts/install.sh
+```
+
+Or copy the files manually:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/pets/pickle"
@@ -80,6 +98,7 @@ pickle-codex-pet/
 ├── previews/            # MP4 previews for the nine animation states
 ├── docs/                # Visual documentation
 ├── qa/                  # Atlas validation evidence
+├── scripts/install.sh   # Repeatable local installer used by Codex
 ├── LICENSE
 └── README.md
 ```
@@ -91,4 +110,3 @@ Bug reports and improvements are welcome through GitHub issues and pull requests
 ## License
 
 This project is available under the [MIT License](LICENSE). The license covers the included pet artwork, configuration, previews, and documentation.
-
