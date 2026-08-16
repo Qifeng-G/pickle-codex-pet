@@ -4,17 +4,15 @@ Pickle is a photorealistic animated desktop pet for the Codex desktop app, based
 
 ![Pickle jumping pose sequence](docs/jumping-poses.png)
 
-## One-sentence install with Codex
+## Install with Codex
 
-Paste this sentence into a Codex conversation:
+Copy the prompt below, paste it into Codex, and approve the installation when asked:
 
-> 请从 https://github.com/Qifeng-G/pickle-codex-pet 安装 Pickle Codex 桌宠，按照仓库说明运行安装脚本，验证安装结果，并在需要重启 Codex 时告诉我。
+```text
+Install the Pickle Codex desktop pet from https://github.com/Qifeng-G/pickle-codex-pet. Clone the repository, run scripts/install.sh, verify the installed files, and tell me when to restart Codex.
+```
 
-That is all. Codex can clone the repository, run the included installer, verify the two installed files, and tell you when to restart the app. You may be asked to approve writing to your Codex pets directory.
-
-English prompt:
-
-> Install the Pickle Codex desktop pet from https://github.com/Qifeng-G/pickle-codex-pet, run the repository installer, verify the installation, and tell me when Codex needs to restart.
+Codex will install the pet, verify the copied files, and tell you when to restart the app.
 
 ## Animation states
 
