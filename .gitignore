@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.log
+
+# Local generation and editor caches
+work/
+outputs/
+.codex/
+
