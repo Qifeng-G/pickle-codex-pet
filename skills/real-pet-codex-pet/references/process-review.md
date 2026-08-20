@@ -20,7 +20,7 @@ Use this checklist when inheriting a long real-pet project, another Codex conver
 - Identity anchors may come from an earlier conversation. In Pickle, front/left/right full-body white-background images became the foundation for later animation work.
 - Half-body and full-body identity assets may both be useful. Preserve both when the user asks; do not overwrite approved views with a new crop.
 - Named action references should constrain only their matching states.
-- If a prompt generator injects an unwanted style, such as pixel art, patch the prompt or workflow so the approved photorealistic style remains authoritative.
+- If a prompt generator injects an unwanted stylized look, patch the prompt or workflow so the approved photorealistic style remains authoritative.
 - If image-generation tooling changes filename patterns, update compatibility checks without weakening provenance, hash, or source validation.
 - If an image request exceeds input-image limits, reduce to the most important identity/action/layout references instead of dropping grounding entirely.
 - Check whether local helper skills or packaging tools are current before patching them. If a local tool is stale but fixable, explain the compatibility issue and request permission before editing installed skill code.

@@ -29,7 +29,7 @@ Prefer the bundled scripts for repeatable checks before writing ad hoc shell or 
    - Identify the stable visual traits: face shape, eye size and spacing, nose/muzzle, ear shape, fur color, chest/belly fur, body proportions, leg thickness, tail shape, and any distinctive markings.
    - Generate or select one representative white-background full-body PNG per requested state.
    - Work one state at a time when the user asks for confirmation. Do not move from representative frame to MP4 to final pet until the user approves the current stage.
-   - For real pets, prefer photorealistic full-body images on pure white backgrounds. Avoid pixel art, illustration, cartooning, human-like limbs, text, watermarks, shadows, scenery, and floating symbols unless the user explicitly asks.
+   - For real pets, require photorealistic full-body images on pure white backgrounds. Keep real-animal anatomy, fur, proportions, and camera realism authoritative; do not inherit stylized mascot defaults, illustration, cartooning, human-like limbs, text, watermarks, shadows, scenery, or floating symbols unless the user explicitly asks.
 
 3. Build the nine standard states.
    - Required order: `idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, `review`.
