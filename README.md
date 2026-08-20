@@ -12,6 +12,16 @@ Install the Pickle Codex desktop pet from https://github.com/Qifeng-G/pickle-cod
 
 Codex will install the pet, verify the copied files, and tell you when to restart the app.
 
+## Reusable Codex skill
+
+This repo also includes a reusable Codex skill for creating photorealistic Codex pets from your own real pet photos and videos.
+
+Copy this prompt into Codex to install the skill:
+
+```text
+Install the Real Pet Codex Pet skill from https://github.com/Qifeng-G/pickle-codex-pet/tree/main/skills/real-pet-codex-pet.
+```
+
 ## Animation states
 
 | State | Behavior |
@@ -34,6 +44,7 @@ pickle-codex-pet/
 ├── previews/            # MP4 previews for the nine animation states
 ├── docs/                # Visual documentation
 ├── qa/                  # Atlas validation evidence
+├── skills/              # Reusable Codex skill for making real-pet desktop pets
 ├── scripts/install.sh   # Repeatable local installer used by Codex
 ├── LICENSE
 └── README.md

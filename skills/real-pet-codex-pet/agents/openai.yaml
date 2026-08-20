@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Pet Codex Pet"
+  short_description: "Turn real pet photos into Codex desktop pets"
+  default_prompt: "Use $real-pet-codex-pet to turn my real pet photos into a Codex desktop pet."
