@@ -22,20 +22,6 @@ Copy this prompt into Codex to install the skill:
 Install the Real Pet Codex Pet skill from https://github.com/Qifeng-G/pickle-codex-pet/tree/main/skills/real-pet-codex-pet.
 ```
 
-## Animation states
-
-| State | Behavior |
-| --- | --- |
-| `idle` | Calm breathing and blinking |
-| `running-right` | Runs toward the right |
-| `running-left` | Runs toward the left |
-| `waving` | Stands happily and wags the tail |
-| `jumping` | Rises up and bumps a ball with the nose |
-| `failed` | Disappointed reaction |
-| `waiting` | Waits attentively for input |
-| `running` | Focused task execution, not literal running |
-| `review` | Curious close-up inspection |
-
 ## Repository structure
 
 ```text
