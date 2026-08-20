@@ -38,7 +38,7 @@ pickle-codex-pet/
 
 ## Contributing
 
-Bug reports and improvements are welcome through GitHub issues and pull requests. When changing the atlas, preserve the v2 dimensions and validate transparency, row semantics, animation continuity, and pet identity before submitting.
+Bug reports and improvements are welcome through GitHub issues and pull requests. When changing the atlas, preserve the packaged spritesheet dimensions and validate transparency, row semantics, animation continuity, and pet identity before submitting.
 
 ## License
 
