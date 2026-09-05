@@ -4,13 +4,13 @@ Pickle is a photorealistic animated desktop pet for the Codex desktop app, based
 
 ## Install with Codex
 
-Copy the prompt below, paste it into Codex, and approve the installation when asked:
+Copy the prompt below, paste it into Codex, choose `pickle` or `xiaozuo` when asked, and approve the installation:
 
 ```text
-Install the Pickle Codex desktop pet from https://github.com/Qifeng-G/pickle-codex-pet. Clone the repository, run scripts/install.sh, verify the installed files, and tell me when to restart Codex.
+Install a Codex desktop pet from https://github.com/Qifeng-G/pickle-codex-pet. Ask me whether I want `pickle` or `xiaozuo` (小佐), then clone the repository, run `scripts/install.sh <chosen-pet>`, verify the installed files, and tell me when to restart Codex.
 ```
 
-Codex will install the pet, verify the copied files, and tell you when to restart the app.
+Codex will install the chosen pet, verify the copied files, and tell you when to restart the app.
 
 ## Reusable Codex skill
 
